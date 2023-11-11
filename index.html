@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/coollogo_com-302621162.png" alt="" />
+      <h1>ECC Computer Science Club</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="lead.html">Leadership</a></li>
+          <li><a href="activity.html">Activities</a></li>
+          <li><a href="opp.html">Opportunities</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2 class="hero__title">Computer Science Club</h2>
+        <p class="hero__summary">
+          El camino computer science club is an organization of students
+          interested in the field of computer science.
+        </p>
+        <div class="hero__button"><a href="#signup-form">Sign Up</a></div>
+      </section>
+
+      <section class="form-wrapper">
+        <form action="/" id="signup-form">
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" required />
+
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastName" id="lastName" required />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="disclaimer">
+        Disclaimer : This is a mock website made to immitate a club website.
+        This was not made in partnership with El Camino College.
+      </p>
+    </footer>
+  </body>
+</html>
